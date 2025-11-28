@@ -1,0 +1,12 @@
+[package]
+name = "tw-caldav"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+confy = "2.0.0"
+minicaldav = "0.8.0"
+rusqlite = { version = "0.37.0", features = [ "bundled", "uuid" ] }
+serde = { version = "1.0.219", features = ["derive"] }
+ureq = "2.12.1"
+url = { version = "2.5.4", features = ["serde"] }
